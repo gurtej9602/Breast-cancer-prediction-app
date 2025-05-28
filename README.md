@@ -6,7 +6,7 @@ A powerful and easy-to-use web application that predicts cancer likelihood based
 
 ## 📸 Demo
 
-[![Streamlit App](https://img.shields.io/badge/🔗-Click%20here%20to%20launch-blue)](https://your-render-app-url.com)
+[![Streamlit App](https://img.shields.io/badge/🔗-Click%20here%20to%20launch-blue)](https://breast-cancer-prediction-app-zptf.onrender.com)
 
 <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
 
@@ -36,9 +36,29 @@ A powerful and easy-to-use web application that predicts cancer likelihood based
 
 ---
 
-## 🛠️ Installation
+## 💻 Getting Started Locally
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/cancer-prediction-app.git
-   cd cancer-prediction-app
+```bash
+# 1. Clone the repository
+git clone https://github.com/gurtej9602/Breast-cancer-prediction-app.git
+cd Breast-cancer-prediction-app
+
+# 2. (Optional) Create a virtual environment
+python -m venv venv
+# Activate:
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the Streamlit app
+streamlit run cancer_app_final.py
+```
+## Login Pasworrd
+=> doctor123 (For testing only)
+
+# Special Thanks
+To every one who supported me 
