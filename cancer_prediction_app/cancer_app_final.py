@@ -176,7 +176,7 @@ elif page == "Patients":
 elif page == "Logout":
     st.session_state.authenticated = False
     st.success("✅ Logged out.")
-    st.experimental_rerun()
+    st.rerun()
 
 # --- Mobile Responsive CSS ---
 st.markdown("""
